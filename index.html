@@ -2,640 +2,616 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaushi Peter | Portfolio</title>
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kaushi Peter | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#home" class="logo">KP.</a>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-item active">Home</a></li>
-                <li><a href="#about" class="nav-item">About</a></li>
-                <li><a href="#projects" class="nav-item">Projects</a></li>
-                <li><a href="#certificates" class="nav-item">Certificates</a></li>
-                <li><a href="#contact" class="nav-item">Contact</a></li>
-            </ul>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">KP.</a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#certificates" class="nav-item">Certificates</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="section-container hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">Hello, I'm <span class="highlight-name">Kaushi Peter</span></h1>
+
+        <p class="hero-subtitle">Emerging Software Engineer | Building Modular Systems & Responsive Designs</p>
+
+        <p class="hero-description">
+          I engineer modular systems and intuitive UIs. Passionate about bridging technology with meaningful user
+          experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
         </div>
-    </nav>
+      </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="section-container hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Hello, I'm <span class="highlight-name">Kaushi Peter</span></h1>
-
-                <p class="hero-subtitle">Emerging Software Engineer | Building Modular Systems & Responsive Designs</p>
-
-                <p class="hero-description">
-                    I engineer modular systems and intuitive UIs. Passionate about bridging technology with meaningful
-                    user
-                    experiences.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
-                </div>
-            </div>
-
-            <div class="hero-image-right">
-                <div class="profile-container">
-                    <img src="images/profile.png" alt="Kaushi Peter" class="profile-image">
-                </div>
-            </div>
+      <div class="hero-image-right">
+        <div class="profile-container">
+          <!-- IMPORTANT: ensure repo has /images/profile.png (exact lowercase) -->
+          <img src="images/profile.png" alt="Kaushi Peter" class="profile-image" />
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="section-container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-text-container">
-                    <p class="about-description">
-                        I am a passionate Software Engineer student with a keen interest in building scalable and
-                        user-centric applications. My journey in tech started with a curiosity for how things work,
-                        which led me to explore various programming languages and frameworks. I aspire to contribute to
-                        innovative projects that solve real-world problems.
-                    </p>
-                    <div class="about-links">
-                        <a href="./documents/cv.pdf" target="_blank" class="about-link">View Resume</a>
-                        <a href="./documents/cv.pdf" download target="_blank" class="about-link">Download CV</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about-grid">
-                <!-- Skills -->
-                <div class="skills-column">
-                    <h2 class="sub-section-title">Skills</h2>
-
-                    <div class="skill-category">
-                        <h3 class="skill-title">Languages</h3>
-                        <div class="skill-tags">
-                            <span>C#</span>
-                            <span>Java</span>
-                            <span>Python</span>
-                            <span>JavaScript</span>
-                            <span>PHP</span>
-                            <span>Dart</span>
-                            <span>SQL</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3 class="skill-title">Frameworks & Libraries</h3>
-                        <div class="skill-tags">
-                            <span>ASP.NET</span>
-                            <span>Flask / Django</span>
-                            <span>React.js / Node.js</span>
-                            <span>Laravel</span>
-                            <span>Flutter</span>
-                            <span>MySQL</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3 class="skill-title">Tools & Platforms</h3>
-                        <div class="skill-tags">
-                            <span>VS Code</span>
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>MAMP</span>
-                            <span>XAMPP</span>
-                            <span>Composer</span>
-                            <span>Postman</span>
-                            <span>Figma</span>
-                            <span>Canva</span>
-                            <span>Windows/macOS/Linux</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education -->
-                <div class="education-column">
-                    <h2 class="sub-section-title">Education</h2>
-
-                    <div class="education-item">
-                        <div class="education-header">
-                            <h3 class="education-degree">BSc (Hons) in Software Engineering</h3>
-                            <span class="education-date">2024 - 2027 (Expected)</span>
-                        </div>
-                        <p class="education-institution">APIIT LANKA</p>
-                        <p class="education-details">
-                            <strong>Relevant Coursework:</strong><br>
-                            Software Design & Architecture (Modular Workflows)<br>
-                            HCI / UI/UX (Responsive Design & Accessibility)<br>
-                            Mobile Application Development<br>
-                            Data Structures & Algorithms<br>
-                            Web Development<br>
-                            Database Systems (SQL & Relational Design).
-                        </p>
-                    </div>
-
-                    <div class="education-item">
-                        <div class="education-header">
-                            <h3 class="education-degree">Computing Foundation</h3>
-                            <span class="education-date">2023 - 2024</span>
-                        </div>
-                        <p class="education-institution">APIIT LANKA</p>
-                        <p class="education-details">
-                            Focus: Software Engineering Fundamentals, Database, Web Development, Algorithms.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-text-container">
+          <p class="about-description">
+            I am a passionate Software Engineer student with a keen interest in building scalable and user-centric
+            applications. My journey in tech started with a curiosity for how things work, which led me to explore
+            various programming languages and frameworks. I aspire to contribute to innovative projects that solve
+            real-world problems.
+          </p>
+          <div class="about-links">
+            <!-- IMPORTANT: ensure repo has /documents/cv.pdf (exact lowercase) -->
+            <a href="documents/cv.pdf" target="_blank" class="about-link" rel="noopener noreferrer">View Resume</a>
+            <a href="documents/cv.pdf" download class="about-link">Download CV</a>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="section-container">
-            <div class="section-header">
-                <h2 class="section-title">My Projects</h2>
-                <p class="section-subtitle">Here are some of the projects I've worked on.</p>
+      <div class="about-grid">
+        <!-- Skills -->
+        <div class="skills-column">
+          <h2 class="sub-section-title">Skills</h2>
+
+          <div class="skill-category">
+            <h3 class="skill-title">Languages</h3>
+            <div class="skill-tags">
+              <span>C#</span>
+              <span>Java</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>Dart</span>
+              <span>SQL</span>
             </div>
+          </div>
 
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/hotel_booking_demo.mp4" class="project-image" controls
-                            preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Hotel Room Booking System</h3>
-                        <p>A terminal-based hotel booking system designed to streamline room reservations and customer
-                            management through a simple, structured workflow</p>
-                        <div class="project-tags">
-                            <span>C#</span>
-                        </div>
-                        <a href="https://github.com/kaushipeter/c-.git " class="view-project">View Project &rarr;</a>
-                    </div>
-                </div>
-
-
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/scent.mp4" class="project-image" controls preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Aura by Kiyara &ndash; Luxury Perfume E-Commerce Website</h3>
-                        <p>aura by kiyara is a luxury perfume e - commerce website that allows customers to explore
-                            fragrances, place orders, and track deliveries, while admins manage products and orders
-                            through a dedicated dashboard</p>
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>PHP</span>
-                            <span>SQL</span>
-                        </div>
-                        <a href="https://github.com/kaushipeter/scent.git" class="view-project">View Project &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/ticket.mp4" class="project-image" controls preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Movie ticket booking system</h3>
-                        <p>a terminal - based, array - implimented movie ticket booking system that allows users to book
-                            setas, shows a message if a selected seat is already booked, and manages reservations
-                            through a simple command-line interface.</p>
-                        <div class="project-tags">
-                            <span>C#</span>
-                        </div>
-                        <a href=" https://github.com/kaushipeter/ticket-booking-system-.git " class="view-project">View
-                            Project &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/sms.MOV" class="project-image" controls preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Sports Management System</h3>
-                        <p>Sports Management System is a role-based web application featuring four dedicated views —
-                            Admin, Player, Coach, and Captain — designed to digitalize and streamline sports operations
-                            within an organization. The core feature of the system is a structured budget requesting
-                            module, where coaches and captains can submit funding requests for tournaments, equipment,
-                            and events, and administrators can review, approve, or reject them through a centralized
-                            dashboard.
-                            In addition to budget management, the system includes player registration, team creation and
-                            management, match scheduling, performance tracking, and real-time status updates. With
-                            secure role-based access control, each user has access to functionalities tailored to their
-                            responsibilities, ensuring organized, transparent, and efficient sports administration.</p>
-                        <div class="project-tags">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>PHP</span>
-                            <span>SQL</span>
-                        </div>
-                        <a href="https://sportsmanage.page.gd" class="view-project">View
-                            Project &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/pipeline.mp4" class="project-image" controls preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Startup Pipeline Management System</h3>
-                        <p>A terminal-based startup pipeline management system that lets a venture capital firm register
-                            startups, match them to investor allocations by sector + stage, prioritizes the lowest
-                            urgency, breaks ties using FIFO (first registered first), updates startup status (Queued →
-                            Matched → Funded), and manages the full workflow through a simple command-line menu.</p>
-                        <div class="project-tags">
-                            <span>C#</span>
-                            <span>.NET</span>
-                            <span>Data Structure: LinkedList (Startup)</span>
-                        </div>
-                        <a href="https://github.com/kaushipeter/startup-pipeline-management-" class="view-project">View
-                            Project &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="card-image-wrap">
-                        <video src="videos/fitnessplan.mp4" class="project-image" controls preload="metadata"></video>
-                    </div>
-                    <div class="project-info">
-                        <h3>Personalized Fitness Recommendation System</h3>
-                        <p>A terminal-based health and fitness recommendation system that uses an N-ary tree structure
-                            to simulate an interactive decision-making quiz. Each internal node represents a question,
-                            each edge represents a user’s selected choice, and each leaf node produces a personalized
-                            fitness plan. The system traverses from root to leaf based on user input, ensuring
-                            structured, hierarchical recommendations through a command-line interface.</p>
-                        <div class="project-tags">
-                            <span>C#</span>
-                            <span>.NET</span>
-                            <span>Data Structure: N-ary Tree</span>
-                            <span>Dictionary (HashMap)</span>
-                        </div>
-                        <a href="https://github.com/kaushipeter/fitness-recommendation-system" class="view-project">View
-                            Project &rarr;</a>
-                    </div>
-                </div>
+          <div class="skill-category">
+            <h3 class="skill-title">Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span>ASP.NET</span>
+              <span>Flask / Django</span>
+              <span>React.js / Node.js</span>
+              <span>Laravel</span>
+              <span>Flutter</span>
+              <span>MySQL</span>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Certificates Section -->
-    <section id="certificates" class="certificates">
-        <div class="section-container">
-            <div class="section-header">
-                <h2 class="section-title">My Certificates</h2>
-                <p class="section-subtitle">LinkedIn Learning & More</p>
+          <div class="skill-category">
+            <h3 class="skill-title">Tools & Platforms</h3>
+            <div class="skill-tags">
+              <span>VS Code</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>MAMP</span>
+              <span>XAMPP</span>
+              <span>Composer</span>
+              <span>Postman</span>
+              <span>Figma</span>
+              <span>Canva</span>
+              <span>Windows/macOS/Linux</span>
             </div>
-
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/dart.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Dart: Clean Code, Writing High-Efficiency, Maintainable Dart Programs</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong> This course dives deep into writing clean, efficient, and
-                        well-structured Dart code, emphasizing best practices for application architecture.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I learned advanced Dart concepts, effective design patterns,
-                        code formatting strategies, and techniques to minimize technical debt.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Mastering clean code in Dart allows me to build robust, scalable
-                        Flutter applications faster and collaborate more effectively with large development teams.
-                    </div>
-
-                    <a href="documents/dart.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/database.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Programming Foundations: Databases</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong> This course provides a strong foundation in database concepts, including
-                        relational database design, data modeling, normalization, and structured query language (SQL).
-                        It explains how databases store, manage, and retrieve data efficiently in real-world
-                        applications.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I gained an understanding of relational database structures,
-                        primary and foreign keys, normalization techniques, and writing efficient SQL queries for data
-                        manipulation and retrieval. I also learned how proper database design improves system
-                        performance and data integrity.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> A solid foundation in databases enables me to design
-                        structured, scalable systems and build applications that manage data efficiently. These
-                        skills are essential for backend development, full-stack projects, and building reliable
-                        software systems.
-                    </div>
-
-                    <a href="documents/database.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/js.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>End-to-End JavaScript Testing with Cypress.io</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong> This course focuses on end-to-end (E2E) testing of web applications
-                        using Cypress.io, a modern JavaScript testing framework. It covers how to simulate real user
-                        interactions, automate browser testing, and ensure application reliability.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I learned how to write automated test scripts using Cypress,
-                        perform UI testing, validate user workflows, handle asynchronous behavior, and debug application
-                        issues effectively. I also gained experience in improving software quality through automated
-                        testing practices.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Understanding end-to-end testing allows me to build more
-                        reliable and production-ready web applications. These skills help ensure smooth user
-                        experiences, reduce bugs before deployment, and strengthen overall software quality — an
-                        essential skill for modern full-stack and frontend development.
-                    </div>
-
-                    <a href="documents/js.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/mysql.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>MySQL Installation and Configuration</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong> This course covers the installation, setup, and configuration of MySQL
-                        database servers. It focuses on understanding database environments, server management, and
-                        essential configuration settings for optimal performance and security.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I learned how to install MySQL on different operating systems,
-                        configure server settings, manage user accounts and permissions, create and maintain databases,
-                        and perform basic performance tuning and backups.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Gaining hands-on experience with MySQL installation and
-                        configuration strengthens my backend development skills and enables me to deploy and manage
-                        database-driven applications efficiently. These skills are essential for full-stack development
-                        and real-world software deployment.
-                    </div>
-
-                    <a href="documents/mysql.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-
-
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/playwrite.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Learning Playwright</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong> This course introduces Playwright, a modern end-to-end testing
-                        framework used for automating web application testing across multiple browsers. It focuses
-                        on creating reliable automated tests to validate user interactions and application behavior.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I learned how to write automated test scripts using
-                        Playwright, handle browser automation, perform UI testing, manage asynchronous operations,
-                        and test applications across different browsers such as Chromium, Firefox, and WebKit.
-
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Understanding Playwright enhances my ability to build and
-                        test high-quality web applications. These skills allow me to ensure application reliability,
-                        reduce production bugs, and contribute effectively to modern development teams that follow
-                        automated testing practices.
-                    </div>
-
-                    <a href="documents/playwrite.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/react.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Create a CRM Mobile Application with React Native
-                    </h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong>This course focuses on building a Customer Relationship Management (CRM)
-                        mobile application using React Native. It covers mobile UI development, state management,
-                        navigation, and integration of data-driven features for real-world business applications.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong> I learned how to design and develop cross-platform mobile
-                        applications using React Native, implement navigation flows, manage application state, connect
-                        to APIs, and structure reusable components. I also gained practical experience in building
-                        user-friendly and scalable mobile interfaces.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Developing a CRM mobile application strengthened my mobile
-                        development skills and improved my understanding of real-world business systems. These skills
-                        enable me to build cross-platform applications efficiently and contribute to modern mobile-first
-                        development teams.
-                    </div>
-
-                    <a href="documents/react.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/web.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Programming Foundations: Web Security</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong>This course introduces fundamental web security concepts,
-                        focusing on common vulnerabilities and best practices for securing web applications. It
-                        explains how modern applications can be protected against common cyber threats.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong>I learned about common web security risks such as SQL
-                        injection, cross-site scripting (XSS), authentication vulnerabilities, and secure data
-                        handling practices. I also gained an understanding of encryption basics, secure
-                        communication (HTTPS), and best practices for protecting user data.
-
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Understanding web security strengthens my ability to
-                        develop secure and reliable web applications. These skills help me write safer code,
-                        protect sensitive data, and contribute to building applications that follow industry
-                        security standards.
-                    </div>
-
-                    <a href="documents/web.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-            <div class="certificate-card">
-                <div class="cert-image-viewer">
-                    <iframe src="documents/java.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
-                </div>
-                <div class="cert-info">
-                    <h3>Learning Java 17</h3>
-                    <p class="cert-issuer">Issued by LinkedIn Learning</p>
-
-                    <div class="cert-detail">
-                        <strong>About:</strong>This course introduces the core concepts of Java 17, covering
-                        object-oriented programming principles, syntax fundamentals, and modern language
-                        features introduced in recent Java versions.
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>What I Learned:</strong>I learned Java fundamentals including variables, data
-                        types, control structures, classes, objects, inheritance, and exception handling. I also
-                        explored modern Java 17 features such as improved switch expressions and enhanced
-                        performance capabilities.
-
-
-                    </div>
-
-                    <div class="cert-detail">
-                        <strong>Career Impact:</strong> Learning Java strengthens my understanding of
-                        object-oriented programming and backend development. These skills enable me to build
-                        structured, scalable applications and expand my versatility across multiple programming
-                        languages.
-                    </div>
-
-                    <a href="documents/java.pdf" target="_blank" class="btn btn-primary view-cert-btn">View
-                        Certificate</a>
-                </div>
-            </div>
-
+          </div>
         </div>
 
+        <!-- Education -->
+        <div class="education-column">
+          <h2 class="sub-section-title">Education</h2>
 
-
-
-
-
-
-
-
-
-
-
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-container">
-            <div class="section-header">
-                <h2 class="section-title">Let's Connect</h2>
-                <p class="section-subtitle">I’m currently seeking internship opportunities in Software Engineering and
-                    Web Development. If you think I’d be a good fit for your team, let’s talk!</p>
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="education-degree">BSc (Hons) in Software Engineering</h3>
+              <span class="education-date">2024 - 2027 (Expected)</span>
             </div>
+            <p class="education-institution">APIIT LANKA</p>
+            <p class="education-details">
+              <strong>Relevant Coursework:</strong><br />
+              Software Design & Architecture (Modular Workflows)<br />
+              HCI / UI/UX (Responsive Design & Accessibility)<br />
+              Mobile Application Development<br />
+              Data Structures & Algorithms<br />
+              Web Development<br />
+              Database Systems (SQL & Relational Design).
+            </p>
+          </div>
 
-            <div class="contact-grid">
-                <div class="contact-details">
-                    <p><strong>Email:</strong> <a href="mailto:kaushi.peter@icloud.com">kaushi.peter@icloud.com</a></p>
-                    <p><strong>Contact Number:</strong> <a href="tel:0701528305">070-1528305</a></p>
-                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kaushi-peter-07686a284/"
-                            target="_blank">LinkedIn
-                            Profile</a></p>
-                    <p><strong>GitHub:</strong> <a href=" https://github.com/kaushipeter" target="_blank">GitHub
-                            Profile</a></p>
-                </div>
-
-                <form id="contactForm" class="contact-form">
-                    <div class="input-group">
-                        <input type="text" id="user_name" name="user_name" placeholder=" " required />
-                        <label for="user_name">Your Name</label>
-                    </div>
-
-                    <div class="input-group">
-                        <input type="email" id="user_email" name="user_email" placeholder=" " required />
-                        <label for="user_email">Your Email</label>
-                    </div>
-
-                    <div class="input-group">
-                        <textarea id="message" name="message" placeholder=" " required rows="5"></textarea>
-                        <label for="message">Your Message</label>
-                    </div>
-
-                    <button type="submit" class="submit-btn" id="submitBtn">
-                        <span>Send Message</span>
-                        <div class="spinner" id="btnSpinner" style="display: none;"></div>
-                    </button>
-                    <div id="statusMessage" class="status-message hidden"></div>
-                </form>
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="education-degree">Computing Foundation</h3>
+              <span class="education-date">2023 - 2024</span>
             </div>
+            <p class="education-institution">APIIT LANKA</p>
+            <p class="education-details">
+              Focus: Software Engineering Fundamentals, Database, Web Development, Algorithms.
+            </p>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2026 Portfolio. All rights reserved.</p>
-    </footer>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Here are some of the projects I've worked on.</p>
+      </div>
 
-    <!-- EmailJS SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="script.js"></script>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/hotel_booking_demo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Hotel Room Booking System</h3>
+            <p>
+              A terminal-based hotel booking system designed to streamline room reservations and customer management
+              through a simple, structured workflow
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+            </div>
+            <a href="https://github.com/kaushipeter/c-.git" class="view-project" target="_blank"
+              rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/scent.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Aura by Kiyara &ndash; Luxury Perfume E-Commerce Website</h3>
+            <p>
+              Aura by Kiyara is a luxury perfume e-commerce website that allows customers to explore fragrances, place
+              orders, and track deliveries, while admins manage products and orders through a dedicated dashboard.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>PHP</span>
+              <span>SQL</span>
+            </div>
+            <a href="https://github.com/kaushipeter/scent.git" class="view-project" target="_blank"
+              rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/ticket.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Movie Ticket Booking System</h3>
+            <p>
+              A terminal-based, array-implemented movie ticket booking system that allows users to book seats, shows a
+              message if a selected seat is already booked, and manages reservations through a simple command-line
+              interface.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+            </div>
+            <a href="https://github.com/kaushipeter/ticket-booking-system-.git" class="view-project" target="_blank"
+              rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <!-- IMPORTANT: Convert sms.MOV to sms.mp4 for better browser support -->
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/sms.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Sports Management System</h3>
+            <p>
+              Sports Management System is a role-based web application featuring four dedicated views — Admin, Player,
+              Coach, and Captain — designed to digitalize and streamline sports operations within an organization. The
+              core feature is a structured budget requesting module where coaches and captains submit funding requests
+              and administrators review, approve, or reject them through a centralized dashboard.
+              <br /><br />
+              In addition, the system includes player registration, team creation and management, match scheduling,
+              performance tracking, and real-time status updates.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+              <span>SQL</span>
+            </div>
+            <a href="https://sportsmanage.page.gd" class="view-project" target="_blank" rel="noopener noreferrer">View
+              Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/pipeline.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Startup Pipeline Management System</h3>
+            <p>
+              A terminal-based startup pipeline management system that lets a venture capital firm register startups,
+              match them to investor allocations by sector + stage, prioritizes the lowest urgency, breaks ties using
+              FIFO, updates startup status (Queued → Matched → Funded), and manages the full workflow through a simple
+              command-line menu.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>.NET</span>
+              <span>Data Structure: LinkedList (Startup)</span>
+            </div>
+            <a href="https://github.com/kaushipeter/startup-pipeline-management-" class="view-project" target="_blank"
+              rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card">
+          <div class="card-image-wrap">
+            <video class="project-image" controls preload="metadata">
+              <source src="videos/fitnessplan.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>Personalized Fitness Recommendation System</h3>
+            <p>
+              A terminal-based health and fitness recommendation system that uses an N-ary tree structure to simulate
+              an interactive decision-making quiz. Each internal node represents a question, each edge represents a
+              user’s selected choice, and each leaf node produces a personalized fitness plan.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>.NET</span>
+              <span>Data Structure: N-ary Tree</span>
+              <span>Dictionary (HashMap)</span>
+            </div>
+            <a href="https://github.com/kaushipeter/fitness-recommendation-system" class="view-project" target="_blank"
+              rel="noopener noreferrer">View Project &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">My Certificates</h2>
+        <p class="section-subtitle">LinkedIn Learning & More</p>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/dart.pdf" class="cert-pdf" title="Dart Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Dart: Clean Code, Writing High-Efficiency, Maintainable Dart Programs</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course dives deep into writing clean, efficient, and well-structured Dart code,
+            emphasizing best practices for application architecture.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned advanced Dart concepts, effective design patterns, code
+            formatting strategies, and techniques to minimize technical debt.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Mastering clean code in Dart allows me to build robust, scalable Flutter
+            applications faster and collaborate more effectively with large development teams.
+          </div>
+
+          <a href="documents/dart.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/database.pdf" class="cert-pdf" title="Database Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Programming Foundations: Databases</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course provides a strong foundation in database concepts, including relational
+            database design, data modeling, normalization, and SQL.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I gained an understanding of relational database structures, keys,
+            normalization, and writing efficient SQL queries.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> A solid foundation in databases enables me to design structured, scalable
+            systems and build applications that manage data efficiently.
+          </div>
+
+          <a href="documents/database.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/js.pdf" class="cert-pdf" title="JavaScript Testing Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>End-to-End JavaScript Testing with Cypress.io</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course focuses on end-to-end testing of web applications using Cypress.io.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned to write automated test scripts, perform UI testing, and debug
+            issues effectively.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Understanding E2E testing helps me build more reliable and production-ready
+            web applications.
+          </div>
+
+          <a href="documents/js.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/mysql.pdf" class="cert-pdf" title="MySQL Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>MySQL Installation and Configuration</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course covers installation, setup, and configuration of MySQL servers.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned to configure server settings, manage accounts/permissions, and
+            maintain databases.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Hands-on MySQL experience strengthens my backend and deployment skills.
+          </div>
+
+          <a href="documents/mysql.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <!-- NOTE: you used "playwrite.pdf" in your original code.
+               If your file is actually "playwright.pdf", rename it or update this link to match exactly. -->
+          <iframe src="documents/playwrite.pdf" class="cert-pdf" title="Playwright Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Learning Playwright</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course introduces Playwright for automating web application testing.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned browser automation, UI testing, async handling, and cross-browser
+            testing.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Playwright skills help me build and test high-quality web applications.
+          </div>
+
+          <a href="documents/playwrite.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/react.pdf" class="cert-pdf" title="React Native Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Create a CRM Mobile Application with React Native</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course focuses on building a CRM mobile app using React Native.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned navigation flows, state management, API integration, and reusable
+            components.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Strengthened my mobile development skills for modern mobile-first teams.
+          </div>
+
+          <a href="documents/react.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/web.pdf" class="cert-pdf" title="Web Security Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Programming Foundations: Web Security</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course introduces fundamental web security concepts and best practices.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned about SQL injection, XSS, auth vulnerabilities, and secure data
+            handling.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Helps me develop more secure and reliable web applications.
+          </div>
+
+          <a href="documents/web.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <div class="cert-image-viewer">
+          <iframe src="documents/java.pdf" class="cert-pdf" title="Java 17 Certificate"></iframe>
+        </div>
+        <div class="cert-info">
+          <h3>Learning Java 17</h3>
+          <p class="cert-issuer">Issued by LinkedIn Learning</p>
+
+          <div class="cert-detail">
+            <strong>About:</strong> This course introduces the core concepts of Java 17 and modern language features.
+          </div>
+
+          <div class="cert-detail">
+            <strong>What I Learned:</strong> I learned OOP basics, control flow, classes/objects, inheritance, and
+            exceptions.
+          </div>
+
+          <div class="cert-detail">
+            <strong>Career Impact:</strong> Strengthens my OOP and backend foundation across multiple languages.
+          </div>
+
+          <a href="documents/java.pdf" target="_blank" class="btn btn-primary view-cert-btn"
+            rel="noopener noreferrer">View Certificate</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">
+          I’m currently seeking internship opportunities in Software Engineering and Web Development. If you think I’d be
+          a good fit for your team, let’s talk!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details">
+          <p><strong>Email:</strong> <a href="mailto:kaushi.peter@icloud.com">kaushi.peter@icloud.com</a></p>
+          <p><strong>Contact Number:</strong> <a href="tel:0701528305">070-1528305</a></p>
+          <p><strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/kaushi-peter-07686a284/" target="_blank" rel="noopener noreferrer">
+              LinkedIn Profile
+            </a>
+          </p>
+          <p><strong>GitHub:</strong>
+            <a href="https://github.com/kaushipeter" target="_blank" rel="noopener noreferrer">
+              GitHub Profile
+            </a>
+          </p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <div class="input-group">
+            <input type="text" id="user_name" name="user_name" placeholder=" " required />
+            <label for="user_name">Your Name</label>
+          </div>
+
+          <div class="input-group">
+            <input type="email" id="user_email" name="user_email" placeholder=" " required />
+            <label for="user_email">Your Email</label>
+          </div>
+
+          <div class="input-group">
+            <textarea id="message" name="message" placeholder=" " required rows="5"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <button type="submit" class="submit-btn" id="submitBtn">
+            <span>Send Message</span>
+            <div class="spinner" id="btnSpinner" style="display: none;"></div>
+          </button>
+          <div id="statusMessage" class="status-message hidden"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
